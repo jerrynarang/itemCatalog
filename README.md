@@ -46,4 +46,4 @@ To get the Google login working there are a few additional steps:
 10.On the Dev Console Select Download JSON <br>
 11.Rename JSON file to client_secrets.json <br>
 12.Place JSON file in your directory where project.py is present
-Run application using python /item-catalog/app.py
+Run application your application
