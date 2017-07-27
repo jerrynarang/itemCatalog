@@ -29,3 +29,21 @@ You will learn how to develop a RESTful web application using the Python framewo
 9.Run the application project.py <br>
 
 Access the application locally using http://localhost:8080
+
+
+## Using Google Sign In
+To get the Google login working there are a few additional steps:
+
+1.Go to Google Dev Console <br>
+2.Sign up or Login <br>
+3.Go to Credentials <br>
+4.Select Create Crendentials > OAuth Client ID <br>
+5.Select Web application <br>
+6.Enter name 'My Project' <br>
+7.Authorized JavaScript origins = 'http://localhost:8080' <br>
+8.Save Changes <br>
+9.Copy the Client ID and paste it into the data-clientid in login.html present in the templates folder <br>
+10.On the Dev Console Select Download JSON <br>
+11.Rename JSON file to client_secrets.json 
+12.Place JSON file in your directory where project.py is present
+Run application using python /item-catalog/app.py
